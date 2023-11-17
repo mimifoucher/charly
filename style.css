@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+.main-container {
+    background-color: black;
+  }
+  
+.container-content {
+    display: flex;
+  }
+
+
+  .title-charly {
+    font-size: 60px;
+    margin-left: 30px;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .container-content {
+    position: relative;
+  }
+
+  .text-container {
+    width: 1000px;
+    background: rgba(22, 22, 22, 0.5);
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px;
+  }
+
+  .text-artista {
+    margin-left: 30px;
+    line-height: 1.5;
+  }
+
+.title-charly,
+.peperina-container h2,
+.pianobar-container h2,
+.clics-container h2,
+.text-artista {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
+
+.album-peperina,
+.album-pianobar,
+.album-clicsmodernos {
+    display: flex;
+  }
+
+.img-peperina,
+.img-pianobar,
+.img-clicsmodernos  {
+    width: 200px;
+    height: 200px;
+    margin-top: 34px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+
+  .peperina-container,
+   .pianobar-container,
+   .clics-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .button-container {
+    background: green;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+  }
+
+
+  .button-container:hover {
+    background: rgb(0, 180, 0);
+  }
